@@ -4,7 +4,7 @@ import MainLayout from './layouts/MainLayout'; // Impor MainLayout
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Project';
-import Contact from './pages/Contact';
+import Sertificate from './pages/Certificate';
 
 const App = () => {
   return (
@@ -35,10 +35,10 @@ const App = () => {
           } 
         />
         <Route 
-          path="/contact" 
+          path="/sertificate" 
           element={
             <MainLayout>
-              <Contact />
+              <Sertificate />
             </MainLayout>
           } 
         />

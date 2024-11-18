@@ -54,7 +54,7 @@ const Projects = () => {
     <div className="flex flex-col items-center justify-center p-6 min-h-screen">
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-6xl font-semibold text-white">My Projects</h2>
+        <h2 className="text-6xl font-semibold text-white">My Sertificate</h2>
         <p className="text-lg text-gray-400 mt-6">
           Here are some of the projects I've worked on. Each project showcases my skills in frontend and backend development.
         </p>

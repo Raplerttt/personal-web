@@ -5,27 +5,27 @@ const About = () => {
   const foto = require('../assets/1.jpg');
 
   return (
-    <div className="relative flex items-center justify-center p-2 right-10 min-h-screen">
-      <div className="flex items-center justify-between w-full max-w-5xl p-6 rounded-lg shadow-xl">
+    <div className="relative flex items-center justify-center p-4 sm:p-6 min-h-screen">
+      <div className="flex flex-col sm:flex-row items-center sm:items-start justify-between w-full max-w-5xl p-6 rounded-lg shadow-xl">
         {/* Kiri: Foto dengan Background Abstrak */}
         <div 
-          className="relative w-1/3 h-96 bg-cover bg-center rounded-lg" 
+          className="relative w-full sm:w-1/3 h-64 sm:h-96 bg-cover bg-center rounded-lg mb-6 sm:mb-0" 
           style={{ backgroundImage: `url(${foto})` }} // Gunakan foto yang di-import
         >
           <img 
             src={foto} // Gunakan variable foto, tanpa tanda kutip
             alt="Foto Profil"
-            className="absolute bottom-4 left-4 w-32 h-32 rounded-full border-4 border-white"
+            className="absolute bottom-4 left-4 w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-white"
           />
         </div>
 
         {/* Kanan: Informasi Pribadi */}
-        <div className="w-2/3 pl-16">
-          <h1 className="text-3xl font-bold text-white">Informasi System Student & IT Enthusias</h1>
+        <div className="w-full sm:w-2/3 sm:pl-16 text-center sm:text-left">
+          <h1 className="text-3xl sm:text-4xl font-bold text-white">Informasi System Student & IT Enthusias</h1>
 
           {/* Membagi informasi menjadi dua kolom */}
-          <div className="flex space-x-8 mt-4 text-white">
-            <div className="w-1/2 mt-4">
+          <div className="flex flex-col sm:flex-row sm:space-x-8 mt-4 text-white">
+            <div className="w-full sm:w-1/2 mt-4">
               <p className="flex items-center">
                 <span className="mr-2 text-red-500">{'>'}</span>
                 <strong className="mr-2">Phone:</strong>
@@ -43,14 +43,14 @@ const About = () => {
                 <strong className="mr-2">Alamat:</strong> Labuan, Pandeglang
               </p>
             </div>
-            <div className="w-1/2 mt-4">
+            <div className="w-full sm:w-1/2 mt-4">
               <p className="flex items-center">
                 <span className="mr-2 text-red-500">{'>'}</span>
                 <strong className="mr-2">Status:</strong> Available
               </p>
               <p className="flex items-center mt-6">
                 <span className="mr-2 text-red-500">{'>'}</span>
-                <strong className="mr-2">Pendidikan:</strong>Teknik Informatika
+                <strong className="mr-2">Pendidikan:</strong> Teknik Informatika
               </p>
               <p className="flex items-center mt-6">
                 <span className="mr-2 text-red-500">{'>'}</span>
