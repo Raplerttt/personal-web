@@ -9,6 +9,7 @@ const Projects = () => {
       </p>
       
       {/* Project 1 */}
+      <img src="../assets/sharingan.png" alt="" />
       <div className="mt-8">
         <h3 className="text-2xl font-semibold text-gray-800">Project 1: Personal Portfolio Website</h3>
         <p className="mt-2 text-lg text-gray-600">

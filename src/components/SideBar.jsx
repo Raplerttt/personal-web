@@ -3,7 +3,7 @@ import { FaHome, FaUserAlt, FaBriefcase, FaPhoneAlt } from 'react-icons/fa'; // 
 
 const Sidebar = () => {
   return (
-    <div className="bg-black text-white w-64 p-8 h-screen fixed top-0 left-14 flex justify-center items-center">
+    <div className="bg-black text-white w-54 p-8 h-screen fixed top-0 left-8 flex justify-center items-center">
       <div className="text-center">
         <div className="space-y-4">
           <button

@@ -5,7 +5,7 @@ const MainLayout = ({ children }) => {
   return (
     <div className="flex min-h-screen bg-[#100f0f]">
       {/* Sidebar Kiri - Lebar lebih besar */}
-      <div className="w-[400px] bg-black text-white flex flex-col justify-center items-center rounded-r-full">
+      <div className="w-[200px] bg-black text-white flex flex-col justify-center items-center rounded-r-full">
         <Sidebar />
       </div>
 
