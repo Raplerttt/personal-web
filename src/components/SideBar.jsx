@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaUserAlt, FaBriefcase, FaCertificate } from 'react-icons/fa'; // Mengimpor ikon dari React Icons
+import { FaHome, FaUserAlt, FaBriefcase, FaCertificate, FaStudiovinari } from 'react-icons/fa'; // Mengimpor ikon dari React Icons
 
 const Sidebar = () => {
   return (
@@ -36,6 +36,14 @@ const Sidebar = () => {
           >
             <FaCertificate className="h-6 w-6" />
             <span className="absolute left-6 px-4 py-2 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg duration-300 ease-in-out">Certificate</span>
+          </button>
+
+          <button
+            className="group relative flex items-center space-x-2 hover:bg-red-700 hover:text-white p-2 rounded-lg w-full duration-300 ease-in-out transition-opacity "
+            onClick={() => window.location.href = '/resume'} // Menavigasi ke halaman Contact
+          >
+            <FaStudiovinari className="h-6 w-6" />
+            <span className="absolute left-6 px-4 py-2 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg duration-300 ease-in-out">Resume</span>
           </button>
         </div>
       </div>
