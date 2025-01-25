@@ -22,7 +22,7 @@ const Home = () => {
                   type="rotate"
                   from="0 100 100"
                   to="360 100 100"
-                  dur="3s"
+                  dur="5s"
                   repeatCount="indefinite"
                 />
               </circle>
@@ -34,7 +34,7 @@ const Home = () => {
                   type="rotate"
                   from="0 100 100"
                   to="360 100 100"
-                  dur="3s"
+                  dur="5s"
                   repeatCount="indefinite"
                 />
               </circle>
@@ -64,7 +64,7 @@ const Home = () => {
                   type="rotate"
                   from="0 100 100"
                   to="360 100 100"
-                  dur="3s"
+                  dur="5s"
                   repeatCount="indefinite"
                 />
               </circle>
@@ -77,7 +77,7 @@ const Home = () => {
                     type="rotate"
                     from="0 100 100"
                     to="360 100 100"
-                    dur="3s"
+                    dur="5s"
                     repeatCount="indefinite"
                   />
                 </circle>
@@ -94,7 +94,7 @@ const Home = () => {
                     type="rotate"
                     from="0 100 100"
                     to="360 100 100"
-                    dur="3s"
+                    dur="5s"
                     repeatCount="indefinite"
                   />
                 </rect>
@@ -104,7 +104,7 @@ const Home = () => {
                     type="rotate"
                     from="0 100 100"
                     to="360 100 100"
-                    dur="3s"
+                    dur="5s"
                     repeatCount="indefinite"
                   />
                 </circle>
@@ -121,7 +121,7 @@ const Home = () => {
                     type="rotate"
                     from="0 100 100"
                     to="360 100 100"
-                    dur="3s"
+                    dur="5s"
                     repeatCount="indefinite"
                   />
                 </rect>
@@ -142,7 +142,7 @@ const Home = () => {
                 type="rotate"
                 from="0 100 100"
                 to="360 100 100"
-                dur="3s"
+                dur="5s"
                 repeatCount="indefinite"
               />
             </circle>
@@ -158,30 +158,38 @@ const Home = () => {
             Programmer • Web Developer • Graphic Designer
           </p>
           <div className="flex space-x-4 mt-6 justify-center sm:justify-start">
+            <a href="http://wa.me/6287771177155">
             <button
               aria-label="WhatsApp"
               className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded bg-[#18af1b] text-white hover:shadow-lg transition-transform transform hover:scale-110"
             >
               <FaWhatsapp size="1.5em" />
             </button>
+            </a>
+            <a href="https://github.com/Raplerttt">
             <button
               aria-label="GitHub"
               className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded bg-[#000000] text-white hover:shadow-lg transition-transform transform hover:scale-110"
             >
               <FaGithub size="1.5em" />
             </button>
+            </a>
+            <a href="https://www.instagram.com/rapyns._/">
             <button
               aria-label="Instagram"
               className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded bg-[#f72f25] text-white hover:shadow-lg transition-transform transform hover:scale-110"
             >
               <FaInstagram size="1.5em" />
             </button>
+            </a>
+            <a href="https://www.linkedin.com/in/moh-rafi-nasrullah-10450a214/">
             <button
               aria-label="LinkedIn"
               className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded bg-[#333333] text-white hover:shadow-lg transition-transform transform hover:scale-110"
             >
               <FaLinkedin size="1.5em" />
             </button>
+            </a>
           </div>
           <div className="flex space-x-4 mt-6 justify-center sm:justify-start">
             <button className="px-4 py-2 bg-red-600 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 transition-all duration-300">

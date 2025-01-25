@@ -30,13 +30,13 @@ const About = () => {
                 <span className="mr-2 text-red-500">{'>'}</span>
                 <strong className="mr-2">Phone:</strong>
                 {/* Ganti anchor dengan Link */}
-                <Link to="tel:+62123456789" className="hover:text-red-500">+62 123 456 789</Link>
+                <Link to="wa.me+6287771177155" className="hover:text-red-500">+62 8777 1177 155</Link>
               </p>
               <p className="flex items-center mt-6">
                 <span className="mr-2 text-red-500">{'>'}</span>
                 <strong className="mr-2">Email:</strong>
                 {/* Ganti anchor dengan Link */}
-                <Link to="mailto:email@example.com" className="hover:text-red-500">email@example.com</Link>
+                <Link to="mailto:mhmdraffi1002@gmail.com" className="hover:text-red-500">Mhmdraffi1002@gmail.com</Link>
               </p>
               <p className="flex items-center mt-6">
                 <span className="mr-2 text-red-500">{'>'}</span>

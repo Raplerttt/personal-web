@@ -7,7 +7,7 @@ const Resume = () => {
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-6xl font-semibold text-white">Resume</h2>
         <p className="text-sm md:text-lg text-gray-400 mt-4">
-          Here are some of the projects I've worked on. Each project showcases my skills in frontend and backend development.
+          Ini adalah Resume saya, terdapat pendidikan, pengalaman kerja, dan organisasi.
         </p>
       </div>
 
@@ -22,7 +22,7 @@ const Resume = () => {
           </div>
           {/* Content */}
           <div className="pl-6">
-            <h2 className="text-xl md:text-2xl font-semibold mb-6">Education</h2>
+            <h2 className="text-xl md:text-2xl font-semibold mb-6">Pendidikan</h2>
             <div className="mb-6">
               <h3 className="text-lg md:text-xl font-medium">Teknik Informatika</h3>
               <p className="text-gray-400">Universitas Wanita Internasional</p>
@@ -36,7 +36,28 @@ const Resume = () => {
           </div>
         </div>
 
-        {/* Right Side - Experience */}
+        {/* Center - Experience */}
+        <div className="relative md:w-1/2">
+          {/* Border Line */}
+          <div className="absolute left-0 sm:top-14 top-24 h-full border-l border-white rounded-lg">
+            <div className="absolute -top-2 -left-2 w-4 h-4 bg-gradient-to-r from-red-600 to-white rounded-full"></div>
+          </div>
+          {/* Content */}
+          <div className="pl-6">
+            <h2 className="text-xl md:text-2xl font-semibold mb-6">Pengalaman Kerja</h2>
+            <div className="mb-6">
+              <h3 className="text-lg md:text-xl font-medium">Promotor</h3>
+              <p className="text-gray-400">PT. Daoben Communication (VIVO) </p>
+              <p className="text-gray-500">2020 - 2021</p>
+              <ul className="list-disc list-inside mt-2 text-gray-300">
+                <li>Menjual produk sesuai target yang diberikan</li>
+                <li>Cek Stok</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Side - Organagitation */}
         <div className="relative md:w-1/2">
           {/* Border Line */}
           <div className="absolute left-0 sm:top-14 top-24 h-full border-l border-white rounded-lg">
@@ -45,23 +66,12 @@ const Resume = () => {
           </div>
           {/* Content */}
           <div className="pl-6">
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 mt-8">Experience</h2>
+            <h2 className="text-xl md:text-2xl font-semibold mb-6">Organisasi</h2>
             <div className="mb-6">
-              <h3 className="text-lg md:text-xl font-medium">Software Engineer</h3>
-              <p className="text-gray-400">ABC Tech Company</p>
-              <p className="text-gray-500">2021 - Present</p>
+              <h3 className="text-lg md:text-xl font-medium">Ketua Umum</h3>
+              <p className="text-gray-400">Himpunan Mahasiswa Informatika</p>
+              <p className="text-gray-500">2024 - 2025</p>
               <ul className="list-disc list-inside mt-2 text-gray-300">
-                <li>Developed and maintained web applications.</li>
-                <li>Collaborated with cross-functional teams to deliver projects.</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg md:text-xl font-medium">Intern</h3>
-              <p className="text-gray-400">Startup XYZ</p>
-              <p className="text-gray-500">2020 - 2021</p>
-              <ul className="list-disc list-inside mt-2 text-gray-300">
-                <li>Assisted in designing user-friendly interfaces.</li>
-                <li>Conducted testing and debugging for new features.</li>
               </ul>
             </div>
           </div>
